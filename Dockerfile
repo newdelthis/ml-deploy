@@ -1,8 +1,8 @@
-FROM python:3.10
+FROM python:3.10-slim
 
 WORKDIR /app
 COPY code/ /app/
-COPY model/model.pkl /app/model.pkl
+COPY model/ /app/model/
 COPY code/requirements.txt /app/requirements.txt
 
 RUN pip install --no-cache-dir -r requirements.txt
