@@ -1,0 +1,5 @@
+€•4      Œsklearn.linear_model._base”ŒLinearRegression”“”)”}”(Œ
+fit_intercept”ˆŒcopy_X”ˆŒn_jobs”NŒpositive”‰Œfeature_names_in_”Œnumpy.core.multiarray”Œ_reconstruct”“”Œnumpy”Œndarray”“”K …”Cb”‡”R”(KK…”h
+Œdtype”“”ŒO8”‰ˆ‡”R”(KŒ|”NNNJÿÿÿÿJÿÿÿÿK?t”b‰]”ŒYearsExperience”at”bŒn_features_in_”KŒcoef_”hhK …”h‡”R”(KK…”hŒf8”‰ˆ‡”R”(KŒ<”NNNJÿÿÿÿJÿÿÿÿK t”b‰CätY-ûtÂ@”t”bŒrank_”KŒ	singular_”hhK …”h‡”R”(KK…”h'‰CêùÍ=£.@”t”bŒ
+intercept_”h
+Œscalar”“”h'C´Ð0Ù@”†”R”Œ_mlflow_run_id”Œ 4fbeddd3fd97407e8b944ff58b1accbc”Œ_sklearn_version”Œ1.6.1”ub.
