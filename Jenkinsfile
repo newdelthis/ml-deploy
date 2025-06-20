@@ -9,7 +9,11 @@ pipeline {
         }
 
         stage('Retrain Model') {
+            when {
+                changeset "**/training.csv"
+            }
             steps {
+                echo "Detected change in training.csv. Running retrain.py..."
                 sh 'python3 retrain.py'
             }
         }
