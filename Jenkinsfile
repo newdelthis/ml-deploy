@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Retrain Model') {
             steps {
-                sh 'python retrain.py'
+                sh 'python3 retrain.py'
             }
         }
 
