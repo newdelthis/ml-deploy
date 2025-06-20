@@ -2,6 +2,12 @@ pipeline {
     agent any
 
     stages {
+        stage('Install Python Packages') {
+            steps {
+                sh 'python3 -m pip install --user -r code/requirements.txt'
+            }
+        }
+
         stage('Retrain Model') {
             steps {
                 sh 'python3 retrain.py'
